@@ -1,0 +1,178 @@
+/*!
+    Theme Name: ppstore
+    Theme URI: https://ppstore.vn
+    Author: Sticky.vn
+    Author URI: https://ppstore.vn
+    Description: Website duoc thiet ke boi ppstore
+    Version: 1.0.0
+    License: GNU General Public License v2 or later
+    License URI: LICENSE
+    Text Domain: ppstore
+*/
+
+
+/*
+|--------------------------------------------------------------------------
+| Theme CSS
+|--------------------------------------------------------------------------
+|
+| About author: https://ppstore.vn/
+|
+*/
+
+:root {
+    --primary-color: #EDD54B;
+    --btn-color: #78944F;
+    --background-main: #E5E5E5;
+    --white-color: #ffffff;
+    --dark-color: #373737;
+    --gray-color: #D3D3D3;
+    --gray-color-2: #F2F2F2;
+    --text-color: #000;
+    --border-color: #5A6B31;
+    --font-family: 'Roboto', sans-serif;
+    --border-radius: 8px;
+}
+
+.container {
+    width: 1400px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+html {
+    font-family: var(--font-family);
+    font-size: 62.5%;
+    /*tương đương 10px*/
+    line-height: 1.5;
+    background-color: var(--white-color);
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+    font-family: var(--font-family), sans-serif;
+    font-weight: bold;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+}
+
+.img-wrap {
+    position: relative;
+    height: auto;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-size: cover;
+    padding-top: 56.25%;
+}
+
+.img-wrap img {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    transform: translateZ(0);
+    margin: 0 auto;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    position: absolute;
+    object-position: 50% 50%;
+    object-fit: cover;
+}
+
+.block-title {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 32px
+}
+
+.block-title .title {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 3.2rem;
+    line-height: 31px;
+    color: var(--text-color);
+    text-transform: uppercase;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bg-image {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.d-flex_align-center {
+    display: flex;
+    align-items: center;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -20px;
+}
+
+.grid-item {
+    padding-left: -20px;
+}
+
+.btn,
+button {
+    background: transparent;
+    border: none;
+    font-size: 1.4rem;
+    outline: none;
+}
+
+.btn-border {
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    color: var(--border-color);
+    font-weight: 500;
+}
+
+.section {
+    padding: 40px 0;
+}
+
+
+/* Responsive */
+
+@media screen and (max-width: 991px) {}
+
+@media screen and (max-width: 767px) {}
+
+
+/* End Responsive */

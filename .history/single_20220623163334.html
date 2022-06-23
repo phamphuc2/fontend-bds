@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BDS</title>
+    <!-- linl css -->
+    <link rel="stylesheet" href="libs/slick/slick.css">
+    <link rel="stylesheet" href="libs/slick/slick-theme.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/css/theme.css">
+    <link rel="stylesheet" href="./assets/css/resposive.css">
+    <link rel="stylesheet " href="./style.css ">
+    <!-- link thư viện -->
+    <link rel="stylesheet " href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css ">
+    <!-- link font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="inner">
+                    <div class="box-left">
+                        <div class="map">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>Phước sơn, Quảng Nam</span>
+                        </div>
+                        <div class="phone">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>0397111570</span>
+                        </div>
+                    </div>
+                    <div class="box-right">
+                        <ul class="list-info">
+                            <li class="item">
+                                <a href="">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-bottom">
+            <div class="container">
+                <div class="inner">
+                    <div class="header-bottom-left">
+                        <a href="#">
+                            <div class="logo">
+                                <img src="./assets/images/logo.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="header-bottom-right">
+                        <ul class="menu">
+                            <li>
+                                <a href="./index.html">Trang chủ</a>
+                            </li>
+                            <li>
+                                <a href="./about.html">Giới Thiệu</a>
+                            </li>
+                            <li>
+                                <a href="./taxonomy.html">Dự Án</a>
+                            </li>
+                            <li>
+                                <a href="./taxonomy.html">Tin Tức</a>
+                            </li>
+                            <li>
+                                <a href="./blogs.html">Tuyển Dụng</a>
+                            </li>
+                            <li>
+                                <a href="./contact.html">Liên hệ</a>
+                            </li>
+                        </ul>
+                        <div class="wrapper btn-project">
+                            <a class="modal-toggle">ĐĂNG KÝ DỰ ÁN</a>
+                        </div>
+                        <div class="modal">
+                            <div class="modal-overlay modal-toggle"></div>
+                            <div class="modal-wrapper modal-transition">
+                                <div class="modal-header inner-top">
+                                    <button class="modal-close modal-toggle ">x</button>
+                                    <h2 class="title">LIÊN HỆ</h2>
+                                    <div class="is-drive"></div>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="form-contact-home">
+                                        <div role="form" class="wpcf7" id="wpcf7-f80-o1" lang="en-US" dir="ltr">
+                                            <form action="" class="wpcf7-form init">
+                                                <span class="wpcf7-form-control-wrap your-name"><input type="text"
+                                                        name="your-name" value="" size="40"
+                                                        class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                                                        aria-required="true" aria-invalid="false"
+                                                        placeholder="Tên của bạn"></span>
+                                                <span class="wpcf7-form-control-wrap your-name"><input type="text"
+                                                        name="your-name" value="" size="40"
+                                                        class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                                                        aria-required="true" aria-invalid="false"
+                                                        placeholder="Địa chỉ email của bạn"></span>
+                                                <span class="wpcf7-form-control-wrap your-name"><input type="text"
+                                                        name="your-name" value="" size="40"
+                                                        class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                                                        aria-required="true" aria-invalid="false"
+                                                        placeholder="Số điện thoại của bạn"></span>
+                                                <span class="wpcf7-form-control-wrap your-title"><textarea
+                                                        name="your-title" cols="40" rows="10"
+                                                        class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required"
+                                                        aria-required="true" aria-invalid="false"
+                                                        placeholder="Nội dung yêu cầu dự án..."></textarea></span>
+                                                <div class="btn-submit">
+                                                    <input type="submit" value="Gửi yêu cầu"
+                                                        class="wpcf7-form-control has-spinner wpcf7-submit"><span
+                                                        class="wpcf7-spinner"></span>
+                                                </div>
+                                                <div class="wpcf7-response-output" aria-hidden="true"></div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="icon menu-mobile-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-list" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End header -->
+
+    <!-- menu-mobile -->
+    <div class="menu-mobile">
+        <div class="menu-top">
+            <a href="#">
+                <div class="logo">
+                    <img src="./assets/images/logo.png" alt="">
+                </div>
+            </a>
+            <div class="icon-close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z" />
+                </svg>
+            </div>
+        </div>
+        <ul class="menu">
+            <li>
+                <a href="./index.html">Trang chủ</a>
+            </li>
+            <li>
+                <a href="./about.html">Giới Thiệu</a>
+            </li>
+            <li>
+                <a href="./taxonomy.html">Dự Án</a>
+            </li>
+            <li>
+                <a href="./taxonomy.html">Tin Tức</a>
+            </li>
+            <li>
+                <a href="./blogs.html">Tuyển Dụng</a>
+            </li>
+            <li>
+                <a href="./contact.html">Liên hệ</a>
+            </li>
+        </ul>
+    </div>
+    <div class="overlays"></div>
+    <!-- end-menu-mobile -->
+
+    <section class="banner">
+        <div class="overlay"></div>
+        <div class="container">
+            <h2 class="title">Tin Tức</h2>
+        </div>
+    </section>
+    <section class="main-category">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9">
+                    
+                </div>
+                <div class="col-lg-3">
+                    <div class="sidebar">
+                        <div class="box-item-support">
+                            <h2 class="title">TƯ VẤN HỖ TRỢ KHÁCH HÀNG</h2>
+                            <ul class="item-support">
+                                <li class="item">
+                                    <span class="icon">
+                                        <i class="fa-solid fa-user"></i>
+                                    </span>
+                                    <span class="title">PHẠM VĂN PHÚC</span>
+                                </li>
+                                <li class="item">
+                                    <span class="icon">
+                                        <i class="fa-solid fa-phone"></i>
+                                    </span>
+                                    <span class="title">0397111570</span>
+                                </li>
+                                <li class="item">
+                                    <span class="icon">
+                                        <i class="fa-solid fa-envelope"></i>
+                                    </span>
+                                    <span class="title">mac.convstar@gmail.com</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="box-item-project">
+                            <h2 class="title">
+                                <span class="icon">
+                                    <i class="fa-solid fa-bars"></i>
+                                </span>
+                                <span class="name-item">DỰ ÁN ĐANG THỰC HIỆN</span>
+                            </h2>
+                            <div class="item-project">
+                                <a href="" class="item">
+                                    <div class="img-wrap">
+                                        <img src="./assets/images/project1.jpg" alt="">
+                                    </div>
+                                    <div class="item-content">
+                                        <p class="name-project">DỰ ÁN 1</p>
+                                    </div>
+                                </a>
+                                <a href="" class="item">
+                                    <div class="img-wrap">
+                                        <img src="./assets/images/project2.jpg" alt="">
+                                    </div>
+                                    <div class="item-content">
+                                        <p class="name-project">DỰ ÁN 2</p>
+                                    </div>
+                                </a>
+                                <a href="" class="item">
+                                    <div class="img-wrap">
+                                        <img src="./assets/images/project3.jpg" alt="">
+                                    </div>
+                                    <div class="item-content">
+                                        <p class="name-project">DỰ ÁN 2</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="box-left">
+                            <a href="" class="logo">
+                                <img src="./assets/images/logo.png" alt="">
+                            </a>
+                            <div class="name-cty">CÔNG TY CỔ PHẦN DỊCH VỤ & ĐỊA ỐC BDS</div>
+                            <ul class="list-info">
+                                <li class="item">
+                                    <strong>- Địa chỉ:</strong>
+                                    Phước sơn, Quảng Nam
+                                </li>
+                                <li class="item">
+                                    <a href="">
+                                        <strong>- Hotline:</strong>
+                                        0397111570
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="">
+                                        <strong>- Email:</strong>
+                                        0397111570
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="">
+                                        <strong>- Website:</strong>
+                                        0397111570
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="box-right">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3833.828583004772!2d108.17859985059002!3d16.074382643514532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314218fb7240f30b%3A0x2e34fb5aa125e806!2zMSDEkOG6t25nIMSQw6xuaCBWw6JuLCBUaGFuaCBLaMOqIMSQw7RuZywgVGhhbmggS2jDqiwgxJDDoCBO4bq1bmcsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1654737063418!5m2!1svi!2s"
+                                style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="copy-right">Phát triển và duy trì bởi Maxweb.vn</div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer -->
+    <div class="btn-goToTop">
+        <div class="image">
+            <img src="./assets/images/ic-up.png" alt="">
+        </div>
+    </div>
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="libs/slick/slick.min.js"></script>
+    <script src="./assets/js/theme.js"></script>
+</body>
+
+</html>
